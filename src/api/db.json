@@ -1,0 +1,29 @@
+{
+    "users": [
+        {
+            "name": "Vaibhav",
+            "age": 22,
+            "email": "vaibhav@test.com"
+        },
+        {
+            "name": "Peter",
+            "age": 38,
+            "email": "peter@test.com"
+        },
+        {
+            "name": "Tom",
+            "age": 45,
+            "email": "tom@test.com"
+        },
+        {
+            "name": "Jerry",
+            "age": 19,
+            "email": "jerry@test.com"
+        },
+        {
+            "name": "Sam",
+            "age": 56,
+            "email": "sam@test.com"
+        }
+    ]
+}
