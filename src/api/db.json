@@ -1,29 +1,47 @@
 {
-    "users": [
-        {
-            "name": "Vaibhav",
-            "age": 22,
-            "email": "vaibhav@test.com"
-        },
-        {
-            "name": "Peter",
-            "age": 38,
-            "email": "peter@test.com"
-        },
-        {
-            "name": "Tom",
-            "age": 45,
-            "email": "tom@test.com"
-        },
-        {
-            "name": "Jerry",
-            "age": 19,
-            "email": "jerry@test.com"
-        },
-        {
-            "name": "Sam",
-            "age": 56,
-            "email": "sam@test.com"
-        }
-    ]
+  "users": [
+    {
+      "name": "Vaibhav",
+      "age": 22,
+      "email": "vaibhav@test.com",
+      "id": "ae3e"
+    },
+    {
+      "name": "Peter",
+      "age": 38,
+      "email": "peter@test.com",
+      "id": "4e81"
+    },
+    {
+      "name": "Tom",
+      "age": 45,
+      "email": "tom@test.com",
+      "id": "60dc"
+    },
+    {
+      "name": "Jerry",
+      "age": 19,
+      "email": "jerry@test.com",
+      "id": "e1fe"
+    },
+    {
+      "name": "Sam",
+      "age": 56,
+      "email": "sam@test.com",
+      "id": "ccdc"
+    },
+    {
+      "id": "391f",
+      "name": "Harsh",
+      "age": "23",
+      "email": "harsh@test.com"
+    },
+    {
+      "id": "7235",
+      "name": "Vinayak",
+      "age": "25",
+      "email": "vinu@test.com"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }

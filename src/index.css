@@ -15,11 +15,15 @@ nav {
 nav a {
     color: white;
     text-decoration: none;
+    margin: 0 15px;
 }
 
 nav .active {
     text-decoration: underline;
 }
+
+
+/* User List Page */
 
 .table-container {
     display: flex;
@@ -41,4 +45,20 @@ thead {
 
 th, td{    
     padding: 10px;
+}
+
+/* Add User Page */
+.form {
+    margin-top: 20px;
+}
+
+input{
+    text-align: start;
+    padding: 5px;
+}
+
+button{
+    padding: 5px 8px;
+    cursor: pointer;
+    border-radius: 5px;
 }
