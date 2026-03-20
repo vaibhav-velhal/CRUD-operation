@@ -29,12 +29,6 @@
       "age": 56,
       "email": "sam@test.com",
       "id": "ccdc"
-    },
-    {
-      "id": "391f",
-      "name": "Harsh",
-      "age": "23",
-      "email": "harsh@test.com"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

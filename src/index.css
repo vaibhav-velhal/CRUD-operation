@@ -32,7 +32,7 @@ nav .active {
 }
 
 table{
-    width: 30%;
+    width: 40%;
 }
 
 table, th, td {
@@ -47,7 +47,7 @@ th, td{
     padding: 10px;
 }
 
-/* Add User Page */
+/* Add User & Edit User Page */
 .form {
     margin-top: 20px;
 }
@@ -61,4 +61,5 @@ button{
     padding: 5px 8px;
     cursor: pointer;
     border-radius: 5px;
+    margin: 0 5px;
 }

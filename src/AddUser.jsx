@@ -3,9 +3,9 @@ import { useNavigate } from "react-router-dom";
 
 export default function AddUser(){
 
-    const [name,setName]=useState();
-    const [age,setAge]=useState();
-    const [email,setEmail]=useState();
+    const [name,setName]=useState('');
+    const [age,setAge]=useState('');
+    const [email,setEmail]=useState('');
     const navigate=useNavigate();
 
     const createUser = async()=>{
