@@ -16,6 +16,18 @@ export default function UserList() {
         setUserData(response);
     }
 
+    const deleteUser = async(id)=>{
+        let response = await fetch(url+"/"+id,{
+            method: 'Delete'
+        })
+        response = await response.json();
+
+        if(response){
+            alert("User deleted");
+        }
+        getUserData();
+    }
+
     return (
         <div>
             <h1>User List</h1>
@@ -27,6 +39,7 @@ export default function UserList() {
                             <th>Name</th>
                             <th>Age</th>
                             <th>Email</th>
+                            <th>Action</th>
                         </tr>
                     </thead>
 
@@ -37,6 +50,9 @@ export default function UserList() {
                                     <td>{user.name}</td>
                                     <td>{user.age}</td>
                                     <td>{user.email}</td>
+                                    <td>
+                                        <button onClick={()=>deleteUser(user.id)}>Delete</button>
+                                    </td>
                                 </tr>
                             ))
                         }

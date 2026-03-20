@@ -35,12 +35,6 @@
       "name": "Harsh",
       "age": "23",
       "email": "harsh@test.com"
-    },
-    {
-      "id": "7235",
-      "name": "Vinayak",
-      "age": "25",
-      "email": "vinu@test.com"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
